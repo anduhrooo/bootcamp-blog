@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --accent: gray;
+    --section-header-color: pink;
+    --default-spacing: 20px;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--default-spacing);
+    background-color: var(--section-header-color);
+}
+
+header nav{
+    flex: 1;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headimg img {
+    width: 100%;
+}
+
+.headimg p {
+    background-color: var(--accent);
+    padding: var(--default-spacing);
+    border: 10px solid var(--section-header-color);
+    position: absolute;
+    top:50%;
+    left:30%;
+}
+
+.sectionheader {
+    text-align: center;
+    padding: var(--default-spacing);
+    border: 10px solid var(--accent);
+    border-radius: 30px;
+    margin: 0 0 var(--default-spacing) 0;
+    background-color: var(--section-header-color);
+}
+
+.flexbox img {
+    width: 50%;
+}
+
+.comparison-operator-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conditional-statements-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    border: 10px solid var(--accent);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    padding: var(--default-spacing);
+    margin: var(--default-spacing);
+}
+
+.card p:first-child {
+    text-decoration: underline;
+}
+
+/* SECTION IDs */
+
+#html {
+    border: 10px dashed var(--accent);
+    margin: var(--default-spacing);
+    padding: var(--default-spacing);
+}
+
+#css {
+    border: 10px dashed var(--accent);
+    margin: var(--default-spacing);
+    padding: var(--default-spacing);
+}
+
+#JS {
+    border: 10px dashed var(--accent);
+    margin: var(--default-spacing);
+    padding: var(--default-spacing);
+}
+
+#vscode {
+    border: 10px dashed var(--accent);
+    margin: var(--default-spacing);
+    padding: var(--default-spacing);
+}
+
+/* img {width: 50%;} */
+
